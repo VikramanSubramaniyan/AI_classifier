@@ -26,7 +26,7 @@ def header_footer_cuter(uploaded_file):
         
 
         # Save output PDF file
-        output_file = os.path.join("Result/output.pdf")
+        output_file = "Result/output.pdf"
         with open(output_file, "wb") as f:
             pdf_writer.write(f)
  
@@ -53,6 +53,6 @@ def without_header_footer_cuter(uploaded_file):
         
 
         # Save output PDF file
-        output_file = os.path.join("Result/output.pdf")
+        output_file = "Result/output.pdf"
         with open(output_file, "wb") as f:
             pdf_writer.write(f)
