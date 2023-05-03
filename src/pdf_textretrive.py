@@ -4,7 +4,7 @@ import os
 
 def pdf_text():
     # File upload
-    pdf_file = os.path.join("Result/output.pdf")
+    pdf_file = "Result/output.pdf"
     if pdf_file is not None:
         text = extract_text(pdf_file)
         os.remove(pdf_file)
